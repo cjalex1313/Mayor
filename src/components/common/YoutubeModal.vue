@@ -17,17 +17,3 @@
 import BaseModal from './BaseModal.vue'
 const emit = defineEmits(['close'])
 </script>
-
-<style>
-@media screen and (orientation: portrait) {
-  /* iframe {
-    transform: rotate(90deg);
-    height: 90vh;
-    width: 90vw;
-  } */
-}
-
-/* @media screen and (orientation:landscape) {
-    // CSS applied when the device is in landscape mode
-} */
-</style>
