@@ -21,12 +21,37 @@
       </div>
     </div>
     <div class="sm:col-span-5 z-10 flex justify-center items-center min-h-[500px]">
-      <img class="w-28 h-28" src="@/assets/images/play.png" />
+      <img
+        @click="setYoutubeState(true)"
+        class="w-28 h-28 cursor-pointer"
+        src="@/assets/images/play.png"
+      />
     </div>
+    <YoutubeModal
+      ref="ytModal"
+      v-if="isYoutubeOpen"
+      @click-outside="setYoutubeState(false)"
+      @close="setYoutubeState(false)"
+    />
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from 'vue'
+import { onClickOutside } from '@vueuse/core'
+import YoutubeModal from './common/YoutubeModal.vue'
+
+const ytModal = ref(null)
+
+const isYoutubeOpen = ref(false)
+const setYoutubeState = (val) => {
+  isYoutubeOpen.value = val
+}
+
+onClickOutside(ytModal, (ev) => {
+  setYoutubeState(false)
+})
+</script>
 
 <style>
 .hero-container {
