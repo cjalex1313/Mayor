@@ -10,20 +10,13 @@
     <div class="usr-font lg:mt-16 flex flex-col justify-center p-5 md:pb-20">
       <div class="text-5xl font-bold">Despre mine</div>
       <div class="text-xl mt-12 font-medium max-h-40 sm:max-h-none line-clamp-6 sm:line-clamp-[10]">
-        Ca pasionată de dezvoltarea comunității și având o experiență solidă în domeniul imobiliar,
-        înțeleg profund impactul pe care spațiile în care trăim și lucrăm îl au asupra calității
-        vieții noastre. În calitatea mea de candidat pentru Primăria Craiova, mă angajez să folosesc
-        cunoștințele și experiența mea pentru a transforma orașul într-un loc unde inovația,
-        sustenabilitatea și comunitatea se întâlnesc pentru a crea un mediu de viață excepțional
-        pentru toți craiovenii. Am văzut din interior provocările și oportunitățile pe care le aduce
-        dezvoltarea urbană și sunt convinsă că, împreună. Ca pasionată de dezvoltarea comunității și
-        având o experiență solidă în domeniul imobiliar, înțeleg profund impactul pe care spațiile
-        în care trăim și lucrăm îl au asupra calității vieții noastre. În calitatea mea de candidat
-        pentru Primăria Craiova, mă angajez să folosesc cunoștințele și experiența mea pentru a
-        transforma orașul într-un loc unde inovația, sustenabilitatea și comunitatea se întâlnesc
-        pentru a crea un mediu de viață excepțional pentru toți craiovenii. Am văzut din interior
-        provocările și oportunitățile pe care le aduce dezvoltarea urbană și sunt convinsă că,
-        împreună.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+        passages, and more recently with desktop publishing software like Aldus PageMaker including
+        versions of Lorem Ipsum.
       </div>
       <div class="mt-8">
         <button class="rounded-md bg-white citeste px-5 py-2">
