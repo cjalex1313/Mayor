@@ -23,7 +23,7 @@
     <div class="sm:col-span-5 z-10 flex justify-center items-center min-h-[500px]">
       <img
         @click="setYoutubeState(true)"
-        class="w-28 h-28 cursor-pointer"
+        class="w-28 h-28 cursor-pointer hover:scale-125 transition-all"
         src="@/assets/images/play.png"
       />
     </div>
