@@ -3,7 +3,7 @@
     <div class="background-image"></div>
     <div class="sm:col-span-7 z-10">
       <!-- <div class="px-5 sm:px-10 md:px-20 lg:px-28"> -->
-      <div class="flex justify-center items-center">
+      <div class="flex justify-center items-center sm:translate-x-3 md:translate-x-0">
         <div class="flex flex-col justify-center sm:px-10">
           <img
             class="w-24 md:w-32 lg:w-40 mt-48 sm:mt-72 lg:mt-72"
