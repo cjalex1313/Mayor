@@ -3,7 +3,7 @@
     class="about-me-container overflow-hidden text-white pt-16 grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:gap-36 xl:gap-56 sm:pb-20 md:pb-44 mb-10"
   >
     <div
-      class="avatar-background rounded md:rounded-[50%] flex justify-center overflow-hidden md:scale-125 lg:scale-110 md:-translate-x-4 lg:-translate-x-6 xl:-translate-x-10 2xl:-translate-x-14 lg:mt-16 aspect-square"
+      class="avatar-background rounded-[10%] md:rounded-[50%] flex justify-center overflow-hidden md:scale-125 lg:scale-110 md:-translate-x-4 lg:-translate-x-6 xl:-translate-x-10 2xl:-translate-x-14 lg:mt-16 aspect-square"
     >
       <img src="@/assets/images/emilia.png" class="max-w-[70vw] md:max-w-[31vw] object-cover" />
     </div>
