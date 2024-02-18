@@ -48,7 +48,7 @@ const setYoutubeState = (val) => {
   isYoutubeOpen.value = val
 }
 
-onClickOutside(ytModal, (ev) => {
+onClickOutside(ytModal, () => {
   setYoutubeState(false)
 })
 </script>
