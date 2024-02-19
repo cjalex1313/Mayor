@@ -46,7 +46,7 @@ const elements = ref([
   height: 100%;
   z-index: -10;
   background-image: url('../assets//images/campanie.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   filter: blur(10px);
 }
