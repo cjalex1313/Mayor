@@ -16,7 +16,7 @@
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          class="w-9 h-9"
+          class="w-9 h-9 transition"
           :class="{
             'icon-rotate': isExpanded
           }"
@@ -29,7 +29,10 @@
         </svg>
       </div>
     </div>
-    <div v-if="isExpanded" class="expandable-body text-sm sm:text-base md:text-lg lg:text-xl">
+    <div
+      v-if="isExpanded"
+      class="expandable-body text-sm sm:text-base md:text-lg lg:text-xl transition"
+    >
       {{ props.text }}
     </div>
   </div>
