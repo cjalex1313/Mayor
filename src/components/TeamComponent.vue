@@ -50,7 +50,7 @@
             src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
             alt=""
           />
-          <h3 class="mt-6 nume-echipa">Whitney Francis</h3>
+          <h3 class="mt-6 nume-echipa text-lg md:text-2xl">Whitney Francis</h3>
           <p class="text-sm leading-6 text-gray-600">Consilier local</p>
           <ul role="list" class="mt-6 flex justify-center gap-x-6">
             <li>
@@ -79,7 +79,7 @@
             src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
             alt=""
           />
-          <h3 class="mt-6 nume-echipa">Whitney Francis</h3>
+          <h3 class="mt-6 nume-echipa text-lg md:text-2xl">Whitney Francis</h3>
           <p class="text-sm leading-6 text-gray-600">Consilier local</p>
           <ul role="list" class="mt-6 flex justify-center gap-x-6">
             <li>
