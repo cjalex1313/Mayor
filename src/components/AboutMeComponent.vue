@@ -32,14 +32,24 @@
               clip-rule="evenodd"
             />
           </svg>
-          <span class="font-bold text-base"> Citeste mai departe </span>
+          <span @click="goToAbout()" class="font-bold text-base"> Citeste mai departe </span>
         </button>
       </div>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { useRouter } from 'vue-router';
+
+const router = useRouter()
+
+const goToAbout = () => {
+  router.push({
+    name: 'despre'
+  })
+}
+</script>
 <style>
 .about-me-container {
   background: #002a59;
