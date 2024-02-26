@@ -4,7 +4,7 @@
       Tu ce îți dorești pentru Craiova?
     </div>
     <div class="text-center mt-20">
-      <a href="mailto:someone@example.com">
+      <a href="mailto:contact@emilianeagu.ro">
         <button type="button" class="mailto-button py-1 px-3 rounded-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
