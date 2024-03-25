@@ -10,16 +10,38 @@
     <div class="usr-font lg:mt-16 flex flex-col justify-center p-5 md:pb-20">
       <div class="text-5xl font-bold">Despre mine</div>
       <div class="text-xl mt-12 font-medium max-h-40 sm:max-h-none line-clamp-6 sm:line-clamp-[10]">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-        galley of type and scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-        passages, and more recently with desktop publishing software like Aldus PageMaker including
-        versions of Lorem Ipsum.
+        <p>
+          Asemenea oricărui cetățean al municipiului, am întâmpinat dificultăți în interacțiunile cu
+          administrația locală şi am cunoscut neajunsurile unui oraș în care interesul politic și
+          nepotismul primează în faţa competenţei.
+        </p>
+        <p>
+          Am văzut taxare excesivă și direcţionarea banilor publici către companii private, fără
+          transparență.
+        </p>
+        <p>
+          Am privit cum craiovenii părăseau orașul nostru pentru a găsi în alte locuri un trai mai
+          bun.
+        </p>
+        <p>
+          De aceea, mulți cred că este inutil să votezi pentru că toți politicienii sunt la fel!
+        </p>
+        <p>
+          Dar eu sunt altfel, iar votul tău este ocazia de a spune că te-ai săturat de actuala
+          administrație.
+        </p>
+        <p>
+          Am absolvit facultatea de drept și, în ultimii 25 de ani, mi-am construit o afacerea în
+          consultanță, administrare de proprietăți, investiții în imobiliare și HORECA.
+        </p>
+        <p>
+          Am intrat în politică pentru că eu cred că valorile mele, munca asiduă, onestitatea,
+          corectitudinea, transparența și colaborarea sunt valorile pe care oamenii trebuie să le
+          pretindă unui primar.
+        </p>
       </div>
       <div class="mt-8">
-        <button class="rounded-md bg-white citeste px-5 py-2">
+        <button type="button" @click="goToAbout()" class="rounded-md bg-white citeste px-5 py-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -32,7 +54,7 @@
               clip-rule="evenodd"
             />
           </svg>
-          <span @click="goToAbout()" class="font-bold text-base"> Citeste mai departe </span>
+          <span class="font-bold text-base"> Citeste mai departe </span>
         </button>
       </div>
     </div>
@@ -40,7 +62,7 @@
 </template>
 
 <script setup>
-import { useRouter } from 'vue-router';
+import { useRouter } from 'vue-router'
 
 const router = useRouter()
 

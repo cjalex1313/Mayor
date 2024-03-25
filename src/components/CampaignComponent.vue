@@ -23,24 +23,44 @@ import ExpandableListComponent from './common/ExpandableListComponent.vue'
 
 const elements = ref([
   {
-    title: 'Creșterea venitului net',
-    text: 'Promovăm dezvoltarea afacerilor existente și a celor noi pentru a stimula investițiile și a crea mai multe oportunități de angajare, în timp ce reducem impozitele locale, consolidăm bugetul orașului și gestionăm eficient cheltuielile.'
+    title: 'Mai Mulți Bani în Buzunarul Tău',
+    text: 'Reducerea taxelor locale și cheltuirea banului public cu responsabilitate și transparență sunt prioritare pentru noi.',
+    id: 'maiMultiBani'
   },
   {
-    title: 'Îmbunătățirea educației pentru copiii noștri',
-    text: 'Facilităm accesul la grădinițe, creșe și programe după școală, garantând în același timp că școlile existente dispun de infrastructura adecvată, personal calificat, resurse și curriculum pentru a oferi o educație sigură și de calitate. În plus, oferim cursuri tehnice și profesionale de înaltă calitate, adaptate nevoilor pieței muncii.'
+    title: 'Pregătim copilul tău pentru succes',
+    text: 'Punem accent pe educație, pentru că vrem să fie ușor pentru fiecare copil să învețe și să crească. Ne angajăm să construim și să îmbunătățim creșe, grădinițe și școli moderne. Nu uităm nici de școlile tehnice pentru cei care visează la o carieră practică. Pe scurt, ne dorim ca toți copiii să aibă tot ce le trebuie pentru un start bun în viață.',
+    id: 'pregatimCopilulTauPentruSucces'
   },
   {
-    title: 'Asistență medicală mai bună',
-    text: 'Construim un spital pentru copii, un proiect esențial pentru sănătatea și binele comunității noastre.'
+    title: 'Cartierul pe care îl meriți',
+    text: 'Fiecare cartier contează: Ne asigurăm că fiecare cartier al Craiovei beneficiază de infrastructură modernă și condiții de viață optime.',
+    id: 'cartierulPeCareIlMeriti'
   },
   {
-    title: 'Îmbunătățirea vieții sociale și a cartierelor',
-    text: 'Ne concentrăm pe multiple aspecte pentru a crea un oraș mai plăcut și mai funcțional pentru toți locuitorii. Astfel, ne propunem să cream și să îmbunătățim facilitățile sportive, zonele de joacă, spațiile verzi și centrele sociale. În același timp, ne dorim să reducem congestia de trafic și să rezolvăm problemele legate de parcările insuficiente. De asemenea, ne angajăm să reducem nivelul poluării aerului, al gunoiului și al zgomotului în oraș. În plus, ne concentrăm eforturile spre furnizarea și îmbunătățirea serviciilor de bază, precum energia electrică, asfaltul și canalizarea.'
+    title: 'Sănătate în orașul tău, mai aproape de tine',
+    text: 'Prea mulți craioveni aleg să plece în Capitală sau în alte orașe atunci când au nevoie de servicii medicale. Acesta este cel mai important indicator că eforturile administrației locale în susținerea și dezvoltarea unităților medicale aflate în subordinea sa trebuie să continue. Există o serie de probleme de ordin sanitar cu care locuitorii Craiovei se confruntă în mod special, iar acestea au nevoie de un set amplu de măsuri.',
+    id: 'sanatateInOrasulTau'
   },
   {
-    title: 'O primarie care lucreaza pentru craioveni',
-    text: 'Ne angajăm să simplificăm procedurile administrative și să promovăm digitalizarea, în timp ce suntem prezenți pentru a asculta și a rezolva rapid și eficient problemele dumneavoastră, și să aplicăm politici de angajare și promovare bazate pe competență și transparență, nu pe nepotism.'
+    title: 'Primăria în slujba ta',
+    text: 'Facem Primăria total transparentă, modernă și eficientă, accesibilă online și prezentă în toate cartierele orașului.',
+    id: 'primariaInSlujbaTa'
+  },
+  {
+    title: 'Salvăm patrimoniul cultural al Craiovei',
+    text: 'Ca parte a Craiovei noastre moderne, vom proteja, restaura și celebra moștenirea, tradițiile, talentele și monumentele noastre arhitecturale locale, prin experiențe educaționale, recreative și culturale unice.',
+    id: 'salvamPatrimoniul'
+  },
+  {
+    title: 'Oraș curat. Aer pur. Craioveni sănătoși',
+    text: 'Poluarea aerului, gestionarea inadecvată a deșeurilor, praful rezultat din construcții și din necurățarea străzilor reprezintă probleme care ne afectează pe toți, ce au consecințe directe asupra sănătății și calității vieții tuturor locuitorilor Craiovei.',
+    id: 'orasCurat'
+  },
+  {
+    title: 'Incluziune pentru Persoanele cu Dizabilități',
+    text: 'Îmbunătățim calitatea vieții persoanelor cu dizabilități prin accesibilizarea instituțiilor și a mediului public, organizând târguri pentru locuri de muncă și înființând un comitet dedicat analizei problemelor cu care se confruntă.',
+    id: 'incluziune'
   }
 ])
 </script>

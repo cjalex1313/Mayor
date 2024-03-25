@@ -1,7 +1,7 @@
 <template>
   <div class="hero-container grid grid-cols-1 sm:grid-cols-12 overflow-hidden">
     <div class="background-image"></div>
-    <div class="sm:col-span-7 z-10">
+    <div class="sm:col-span-12 z-10">
       <!-- <div class="px-5 sm:px-10 md:px-20 lg:px-28"> -->
       <div class="flex justify-center items-center sm:translate-x-3 md:translate-x-0">
         <div class="flex flex-col justify-center sm:px-10">
@@ -13,14 +13,19 @@
             class="mt-8 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl"
             src="@/assets/images/nume.png"
           />
-          <img
+          <!-- <img
             class="mt-3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl"
             src="@/assets/images/subtext.png"
-          />
+          /> -->
+          <div
+            class="m-sub text-[25px] sm:text-[30px] md:text-[35px] lg:text-[42px] xl:text-[48px]"
+          >
+            Primar pentru Craiova
+          </div>
         </div>
       </div>
     </div>
-    <div class="sm:col-span-5 z-10 flex justify-center items-center min-h-[500px]">
+    <!-- <div class="sm:col-span-5 z-10 flex justify-center items-center min-h-[500px]">
       <img
         @click="setYoutubeState(true)"
         class="w-28 h-28 cursor-pointer hover:scale-125 transition-all"
@@ -32,7 +37,7 @@
       v-if="isYoutubeOpen"
       @click-outside="setYoutubeState(false)"
       @close="setYoutubeState(false)"
-    />
+    /> -->
   </div>
 </template>
 
@@ -83,9 +88,9 @@ onClickOutside(ytModal, () => {
 
 .m-sub {
   font-family: Montserrat;
-  font-weight: 900;
+  font-weight: 800;
   line-height: 48px;
-  letter-spacing: 0em;
+  letter-spacing: 4px;
   text-align: left;
   color: #ff0021;
 }

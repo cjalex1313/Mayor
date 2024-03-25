@@ -33,23 +33,42 @@
       v-if="isExpanded"
       class="expandable-body text-sm sm:text-base md:text-lg lg:text-xl transition"
     >
-      {{ props.text }}
+      <div>
+        {{ props.text }}
+      </div>
+      <div class="text-center">
+        <button
+          @click="goToSection"
+          type="button"
+          class="bg-[#002a59] text-white py-2 px-4 afla-button rounded-lg"
+        >
+          Afla mai multe
+        </button>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
 
 const props = defineProps({
   title: String,
-  text: String
+  text: String,
+  id: String
 })
 
 const isExpanded = ref(false)
 
 const toggleExpand = () => {
   isExpanded.value = !isExpanded.value
+}
+
+const goToSection = () => {
+  router.push({ path: '/despre', query: { id: props.id } })
 }
 </script>
 
@@ -84,5 +103,10 @@ const toggleExpand = () => {
   letter-spacing: 0em;
   text-align: left;
   color: #002a59;
+}
+
+.afla-button {
+  font-family: Montserrat;
+  font-weight: 500;
 }
 </style>

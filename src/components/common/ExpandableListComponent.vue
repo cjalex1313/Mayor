@@ -6,6 +6,7 @@
       :key="elem.title"
       :title="elem.title"
       :text="elem.text"
+      :id="elem.id"
     />
   </div>
 </template>
