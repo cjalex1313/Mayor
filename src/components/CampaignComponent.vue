@@ -5,9 +5,10 @@
     <div class="campaign-bg"></div>
     <div class="z-20 relative mt-28">
       <div
-        class="px-6 md:px-16 lg:px-36 xl:px-52 text-2xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center cta"
+        class="px-6 md:px-16 lg:px-36 xl:px-52 text-xl md:text-xl lg:text-xl xl:text-3xl 2xl:text-4xl text-center cta"
       >
-        Cum vom face din Craiova un oraș modern
+        Transformăm Craiova în orașul în care oamenii își doresc să trăiască, să studieze, să
+        lucreze și să investească
       </div>
       <ExpandableListComponent
         class="px-9 md:px-20 lg:px-40 xl:px-60 2xl:px-80 mt-12"
