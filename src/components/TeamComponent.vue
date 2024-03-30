@@ -27,6 +27,7 @@
             <li>
               <a
                 href="https://www.facebook.com/profile.php?id=61556678942790"
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
               >
                 <span class="sr-only">Facebook</span>
@@ -36,6 +37,7 @@
             <li>
               <a
                 href="https://www.instagram.com/emilia_neagu_usr?igsh=MTlheTFuZ2h5NjNnYQ=="
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
               >
                 <span class="sr-only">Instagram</span>
@@ -45,6 +47,7 @@
             <li>
               <a
                 href="https://www.tiktok.com/@emilianeaguprimar"
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
               >
                 <span class="sr-only">TikTok</span>
