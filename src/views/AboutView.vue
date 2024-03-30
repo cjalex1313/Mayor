@@ -106,7 +106,7 @@
       </div> -->
 
       <!-- Content section -->
-      <div class="-mt-12 px-6 sm:mt-0 lg:px-8 xl:-mt-8 usr-bg-color xl:px-44 py-10">
+      <!-- <div class="-mt-12 px-6 sm:mt-0 lg:px-8 xl:-mt-8 usr-bg-color xl:px-44 py-10">
         <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <h2 class="text-3xl font-bold tracking-tight text-white usr-font sm:text-4xl">
             Some text
@@ -156,7 +156,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Image section -->
       <!-- <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
