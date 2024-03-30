@@ -12,7 +12,7 @@
     </div>
     <div class="usr-font lg:mt-16 flex flex-col justify-center p-5 md:pb-20">
       <div class="text-5xl font-bold">Despre mine</div>
-      <div class="text-xl mt-12 font-medium max-h-40 sm:max-h-none line-clamp-6 sm:line-clamp-[10]">
+      <div class="text-xl mt-12 font-medium max-h-40 sm:max-h-none line-clamp-5 sm:line-clamp-[10]">
         <p>
           Asemenea oricărui cetățean al municipiului, am întâmpinat dificultăți în interacțiunile cu
           administrația locală şi am cunoscut neajunsurile unui oraș în care interesul politic și

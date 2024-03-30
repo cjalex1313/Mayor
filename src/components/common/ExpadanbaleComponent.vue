@@ -50,7 +50,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
@@ -58,13 +58,16 @@ const router = useRouter()
 const props = defineProps({
   title: String,
   text: String,
-  id: String
+  id: String,
+  openedId: String
 })
 
-const isExpanded = ref(false)
+const emits = defineEmits(['expandToggled'])
+
+const isExpanded = computed(() => props.id == props.openedId)
 
 const toggleExpand = () => {
-  isExpanded.value = !isExpanded.value
+  emits('expandToggled', props.id)
 }
 
 const goToSection = () => {
