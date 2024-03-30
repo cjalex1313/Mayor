@@ -306,6 +306,13 @@ import FootreComponent from '@/components/Footre-component.vue'
 import USRNavComponent from '@/components/USRNavComponent.vue'
 import AboutDespreComponent from '@/components/AboutDespreComponent.vue'
 import ProgramComponent from '@/components/ProgramComponent.vue'
+import maiMutliBani from '@/assets/images/maiMultiBani.jpg'
+import succesCopil from '@/assets/images/succesCopil.jpg'
+import cartier from '@/assets/images/cartier.jpg'
+import sanatate from '@/assets/images/sanatate.jpg'
+import primaria from '@/assets/images/primaria.jpg'
+import mediu from '@/assets/images/mediu.jpg'
+import patrimoniu from '@/assets/images/patrimoniu.jpg'
 import { reactive, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 
@@ -316,8 +323,7 @@ const program = reactive({
     {
       id: 'maiMultiBani',
       title: 'Mai Mulți Bani în Buzunarul Tău',
-      image:
-        'https://images.unsplash.com/photo-1603033156166-2ae22eb2b7e2?q=80&w=2519&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      image: maiMutliBani,
       intro:
         'Reducerea taxelor locale și cheltuirea banului public cu responsabilitate și transparență sunt prioritare pentru noi',
       subpoints: [
@@ -342,8 +348,7 @@ const program = reactive({
     {
       id: 'pregatimCopilulTauPentruSucces',
       title: 'Pregătim copilul tău pentru succes',
-      image:
-        'https://images.unsplash.com/photo-1603033156166-2ae22eb2b7e2?q=80&w=2519&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      image: succesCopil,
       intro:
         'Punem accent pe educație, pentru că vrem să fie ușor pentru fiecare copil să învețe și să crească. Ne angajăm să construim și să îmbunătățim creșe, grădinițe și școli moderne. Nu uităm nici de școlile tehnice pentru cei care visează la o carieră practică. Pe scurt, ne dorim ca toți copiii să aibă tot ce le trebuie pentru un start bun în viață',
       subpoints: [
@@ -364,8 +369,7 @@ const program = reactive({
     {
       id: 'cartierulPeCareIlMeriti',
       title: 'Cartierul pe care îl meriți',
-      image:
-        'https://images.unsplash.com/photo-1603033156166-2ae22eb2b7e2?q=80&w=2519&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      image: cartier,
       intro:
         'Fiecare cartier contează: Ne asigurăm că fiecare cartier al Craiovei beneficiază de infrastructură modernă și condiții de viață optime.',
       subpoints: [
@@ -394,8 +398,7 @@ const program = reactive({
     {
       id: 'sanatateInOrasulTau',
       title: 'Sănătate în orașul tău, mai aproape de tine.',
-      image:
-        'https://images.unsplash.com/photo-1603033156166-2ae22eb2b7e2?q=80&w=2519&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      image: sanatate,
       intro:
         'Prea mulți craioveni aleg să plece în Capitală sau în alte orașe atunci când au nevoie de servicii medicale. Acesta este cel mai important indicator că eforturile administrației locale în susținerea și dezvoltarea unităților medicale aflate în subordinea sa trebuie să continue. Există o serie de probleme de ordin sanitar cu care locuitorii Craiovei se confruntă în mod special, iar acestea au nevoie de un set amplu de măsuri.',
       subpoints: [
@@ -416,8 +419,7 @@ const program = reactive({
     {
       id: 'primariaInSlujbaTa',
       title: 'Primăria în slujba ta',
-      image:
-        'https://images.unsplash.com/photo-1603033156166-2ae22eb2b7e2?q=80&w=2519&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      image: primaria,
       intro:
         'Facem Primăria total transparentă, modernă și eficientă, accesibilă online și prezentă în toate cartierele orașului.',
       subpoints: [
@@ -446,8 +448,7 @@ const program = reactive({
     {
       id: 'salvamPatrimoniul',
       title: 'Salvăm patrimoniul cultural al Craiovei',
-      image:
-        'https://images.unsplash.com/photo-1603033156166-2ae22eb2b7e2?q=80&w=2519&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      image: patrimoniu,
       intro:
         'Ca parte a Craiovei noastre moderne, vom proteja, restaura și celebra moștenirea, tradițiile, talentele și monumentele noastre arhitecturale locale, prin experiențe educaționale, recreative și culturale unice.',
       subpoints: [
@@ -468,8 +469,7 @@ const program = reactive({
     {
       id: 'orasCurat',
       title: 'Oraș curat. Aer pur. Craioveni sănătoși.',
-      image:
-        'https://images.unsplash.com/photo-1603033156166-2ae22eb2b7e2?q=80&w=2519&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      image: mediu,
       intro:
         'Poluarea aerului, gestionarea inadecvată a deșeurilor, praful rezultat din construcții și din necurățarea străzilor reprezintă probleme care ne afectează pe toți, ce au consecințe directe asupra sănătății și calității vieții tuturor locuitorilor Craiovei.',
       subpoints: [
@@ -502,8 +502,7 @@ const program = reactive({
     {
       id: 'incluziune',
       title: 'Incluziune pentru Persoanele cu Dizabilități',
-      image:
-        'https://images.unsplash.com/photo-1603033156166-2ae22eb2b7e2?q=80&w=2519&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      image: null,
       intro:
         'Îmbunătățim calitatea vieții persoanelor cu dizabilități prin accesibilizarea instituțiilor și a mediului public, organizând târguri pentru locuri de muncă și înființând un comitet dedicat analizei problemelor cu care se confruntă.',
       subpoints: [

@@ -1,7 +1,12 @@
 <template>
   <div v-if="props.items">
     <div v-for="item in props.items" :key="item.title" :id="item.id" class="mt-6">
-      <img :src="item.image" alt="" class="aspect-[5/2] w-full object-cover xl:rounded-3xl mb-10" />
+      <img
+        v-if="item.image"
+        :src="item.image"
+        alt=""
+        class="aspect-[5/2] w-full object-cover xl:rounded-3xl mb-10"
+      />
       <div class="mx-auto max-w-full lg:mx-0">
         <h2 class="text-3xl font-bold tracking-tight usr-color sm:text-4xl">{{ item.title }}</h2>
         <p class="mt-6 text-lg leading-8 text-gray-600">
