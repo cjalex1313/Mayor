@@ -5,7 +5,10 @@
     <div
       class="avatar-background rounded-[10%] md:rounded-[50%] flex justify-center overflow-hidden md:scale-125 lg:scale-110 md:-translate-x-4 lg:-translate-x-6 xl:-translate-x-10 2xl:-translate-x-14 lg:mt-16 aspect-square z-10"
     >
-      <img src="@/assets/images/emilia.png" class="max-w-[70vw] md:max-w-[31vw] object-cover" />
+      <img
+        src="@/assets/images/EmiliaSquare.jpg"
+        class="max-w-[70vw] md:max-w-[31vw] object-cover"
+      />
     </div>
     <div class="usr-font lg:mt-16 flex flex-col justify-center p-5 md:pb-20">
       <div class="text-5xl font-bold">Despre mine</div>
