@@ -25,19 +25,28 @@
           <p class="text-sm leading-6 text-gray-600">Consilier local</p>
           <ul role="list" class="mt-6 flex justify-center gap-x-6">
             <li>
-              <a href="#" class="text-gray-400 hover:text-gray-500">
+              <a
+                href="https://www.facebook.com/profile.php?id=61556678942790"
+                class="text-gray-400 hover:text-gray-500"
+              >
                 <span class="sr-only">Facebook</span>
                 <img class="h-5 w-5" src="@/assets/images/facebook.png" />
               </a>
             </li>
             <li>
-              <a href="#" class="text-gray-400 hover:text-gray-500">
+              <a
+                href="https://www.instagram.com/emilia_neagu_usr?igsh=MTlheTFuZ2h5NjNnYQ=="
+                class="text-gray-400 hover:text-gray-500"
+              >
                 <span class="sr-only">Instagram</span>
                 <img class="h-5 w-5" src="@/assets/images/instagram.png" />
               </a>
             </li>
             <li>
-              <a href="#" class="text-gray-400 hover:text-gray-500">
+              <a
+                href="https://www.tiktok.com/@emilianeaguprimar"
+                class="text-gray-400 hover:text-gray-500"
+              >
                 <span class="sr-only">TikTok</span>
                 <img class="h-5 w-5" src="@/assets/images/tiktok.png" />
               </a>
