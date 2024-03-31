@@ -56,7 +56,7 @@
         <RouterLink
           :to="{ path: '/despre', query: { id: 'maiMultiBani' } }"
           class="block rounded-md px-3 py-2 text-base font-medium text-[#002a59] hover:bg-[#002a59] hover:text-white"
-          >Mai Mulți Bani în Buzunarul Tău</RouterLink
+          >Mai mulți bani în buzunarul tău</RouterLink
         >
         <RouterLink
           :to="{ path: '/despre', query: { id: 'pregatimCopilulTauPentruSucces' } }"
@@ -91,7 +91,7 @@
         <RouterLink
           :to="{ path: '/despre', query: { id: 'incluziune' } }"
           class="block rounded-md px-3 py-2 text-base font-medium text-[#002a59] hover:bg-[#002a59] hover:text-white"
-          >Incluziune pentru Persoanele cu Dizabilități</RouterLink
+          >Incluziune pentru persoanele cu dizabilități</RouterLink
         >
       </div>
     </div>

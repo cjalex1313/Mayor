@@ -59,7 +59,7 @@ const elements = ref([
     id: 'orasCurat'
   },
   {
-    title: 'Incluziune pentru Persoanele cu dizabilități',
+    title: 'Incluziune pentru persoanele cu dizabilități',
     text: 'Îmbunătățim calitatea vieții persoanelor cu dizabilități prin accesibilizarea instituțiilor și a mediului public, organizând târguri pentru locuri de muncă și înființând un comitet dedicat analizei problemelor cu care se confruntă.',
     id: 'incluziune'
   }
