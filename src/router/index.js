@@ -1,4 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
+import va from '@vercel/analytics'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
@@ -36,6 +37,14 @@ const router = createRouter({
       component: () => import('@/views/AboutView.vue')
     }
   ]
+})
+
+router.beforeEach((to, from) => {
+  if (to?.query?.id) {
+    va.track('ProgramNavigation', {
+      id: to.query.id
+    })
+  }
 })
 
 export default router
