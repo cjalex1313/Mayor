@@ -15,6 +15,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import va from '@vercel/analytics'
 import ExpadanbaleComponent from './ExpadanbaleComponent.vue'
 const props = defineProps(['elementsProp'])
 const openedId = ref('')
@@ -22,6 +23,9 @@ const toggleClicked = (id) => {
   if (openedId.value == id) {
     openedId.value = ''
   } else {
+    va.track('ProgramExpand', {
+      id: id
+    })
     openedId.value = id
   }
 }
