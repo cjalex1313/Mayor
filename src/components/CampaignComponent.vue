@@ -24,7 +24,7 @@ import ExpandableListComponent from './common/ExpandableListComponent.vue'
 
 const elements = ref([
   {
-    title: 'Mai Mulți Bani în Buzunarul Tău',
+    title: 'Mai mulți bani în buzunarul tău',
     text: 'Reducerea taxelor locale și cheltuirea banului public cu responsabilitate și transparență sunt prioritare pentru noi.',
     id: 'maiMultiBani'
   },
@@ -59,7 +59,7 @@ const elements = ref([
     id: 'orasCurat'
   },
   {
-    title: 'Incluziune pentru Persoanele cu Dizabilități',
+    title: 'Incluziune pentru Persoanele cu dizabilități',
     text: 'Îmbunătățim calitatea vieții persoanelor cu dizabilități prin accesibilizarea instituțiilor și a mediului public, organizând târguri pentru locuri de muncă și înființând un comitet dedicat analizei problemelor cu care se confruntă.',
     id: 'incluziune'
   }
