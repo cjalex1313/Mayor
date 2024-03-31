@@ -5,7 +5,7 @@ import App from './App.vue'
 import router from './router'
 import { inject } from '@vercel/analytics'
 
-inject(process.env.NODE_ENV === 'development' ? 'development' : 'production')
+inject()
 
 const app = createApp(App)
 
