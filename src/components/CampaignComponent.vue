@@ -87,8 +87,8 @@ const elements = ref([
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.6); /* Adjust the opacity as needed */
-  z-index: 1; /* Ensure the pseudo-element is above the background image */
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 1;
 }
 
 .cta {

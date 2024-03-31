@@ -1,25 +1,20 @@
 <template>
   <div
-    class="expandable-container p-4 rounded-lg"
+    class="expandable-container p-6 rounded-lg shadow-md"
     @click="toggleExpand()"
-    :class="{
-      'not-expanded': !isExpanded,
-      expanded: isExpanded
-    }"
+    :class="{ 'not-expanded': !isExpanded, expanded: isExpanded }"
   >
-    <div class="expandable-header text-lg md:text-xl lg:text-2xl xl:text-4xl flex justify-between">
+    <div
+      class="expandable-header text-lg md:text-xl lg:text-2xl xl:text-4xl flex justify-between items-center"
+    >
+      <h2>{{ props.title }}</h2>
       <div>
-        {{ props.title }}
-      </div>
-      <div class="mt-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          class="w-9 h-9 transition"
-          :class="{
-            'icon-rotate': isExpanded
-          }"
+          class="w-6 h-6 cursor-pointer transition-transform"
+          :class="{ 'rotate-180': isExpanded }"
         >
           <path
             fill-rule="evenodd"
@@ -31,17 +26,11 @@
     </div>
     <div
       v-if="isExpanded"
-      class="expandable-body text-sm sm:text-base md:text-lg lg:text-xl transition"
+      class="expandable-body text-sm sm:text-base md:text-lg lg:text-xl mt-4 transition-all"
     >
-      <div>
-        {{ props.text }}
-      </div>
-      <div class="text-center">
-        <button
-          @click="goToSection"
-          type="button"
-          class="bg-[#002a59] text-white py-2 px-4 afla-button rounded-lg"
-        >
+      <p>{{ props.text }}</p>
+      <div class="text-center mt-4">
+        <button @click.stop="goToSection" type="button" class="citeste-button">
           Afla mai multe
         </button>
       </div>
@@ -64,7 +53,7 @@ const props = defineProps({
 
 const emits = defineEmits(['expandToggled'])
 
-const isExpanded = computed(() => props.id == props.openedId)
+const isExpanded = computed(() => props.id === props.openedId)
 
 const toggleExpand = () => {
   emits('expandToggled', props.id)
@@ -76,40 +65,55 @@ const goToSection = () => {
 </script>
 
 <style scoped>
+.expandable-container {
+  transition: background-color 0.3s;
+  cursor: pointer;
+  border: 1px solid #eaeaea;
+  background-color: #f8f9fa;
+}
+
 .expandable-header {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  letter-spacing: 0em;
-  text-align: left;
+  color: #002a59;
+  gap: 10px;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.expandable-body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   color: #002a59;
 }
 
-.icon-rotate {
-  transform: rotate(45deg);
-}
-
-.expandable-container {
-  position: relative;
-}
-
 .not-expanded:hover {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .expanded {
   background-color: #ffffff;
 }
 
-.expandable-body {
-  font-family: Montserrat;
-  font-weight: 500;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #002a59;
+.citeste-button {
+  padding: 0.75rem 1.5rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 0.375rem;
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #002a59;
+  color: white;
 }
 
-.afla-button {
-  font-family: Montserrat;
-  font-weight: 500;
+.citeste-button:hover {
+  background-color: #004080;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
 </style>
